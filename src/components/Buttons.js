@@ -1,6 +1,6 @@
-import satData from "./components/satData.js";
+import satData from "./satData.js";
 
-const Buttons = () => {
+const Buttons = ({displaySats, setSat, filterByType}) => {
   return (
     <div>
       {displaySats.map((sat,id) => {
