@@ -5,6 +5,7 @@ import satData from "./satData.js";
 
 //2)pass in the props created from the App() function filterByType, setSat, and displaySats.
 //3)Update the first button:
+  //This function returns a <div> that uses the map method to iterate over displaySats
   //Provide two callbacks for the map() function (id, sat).
   //The map() function will return the first <button>.
   //Inside the <button> tag create an onClick method that points to the fiterByType function.
